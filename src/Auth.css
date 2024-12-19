@@ -1,0 +1,135 @@
+/* Page Layout */
+.auth-page {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .auth-left {
+    flex: 1;
+    background: linear-gradient(to bottom right, #f7e8e8, #ffd5d5);
+    color: #4a4a4a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .auth-left h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .auth-left p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Form Section */
+  .auth-right {
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auth-right h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .auth-form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+/*   
+  .auth-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .auth-options a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .auth-options a:hover {
+    text-decoration: underline;
+  }
+   */
+  .auth-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .auth-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .auth-right p {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .auth-right p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .auth-right p a:hover {
+    text-decoration: underline;
+  }
+  
+
+  /* Style for "Remember Me" checkbox */
+.auth-options label {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between checkbox and text */
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .auth-options input[type="checkbox"] {
+    accent-color: #007bff; /* Modern browsers support this for customizing the checkbox color */
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+  
+  .auth-options a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .auth-options a:hover {
+    text-decoration: underline;
+  }
+  
