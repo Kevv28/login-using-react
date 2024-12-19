@@ -1,0 +1,30 @@
+flow of app:
+>>register
+  submit details:full name,email,password,confirm password
+  upon successful creation user goes to log in page
+>>login
+  user enters email and password
+  if valid
+    goes to dashboard
+  if not valid
+    error message
+>>dashboard
+  shows details of use
+
+>>About us and Home page
+  displays basic info
+
+
+1.User accesses the Home or Login page.
+2.Login/Register handles user authentication.
+3.Once authenticated, user navigates to the Dashboard.
+4.User data is displayed.
+5.Logout clears the session and redirects to the Login page.
+6.Protected Routes for safe access to pages
+
+In this i used:
+localstorage to save data of user after login
+when the users is logged in for any activity data of user is taken from Localstorage
+for navigation react-router-dom i.e routes and usenavigate hook to allow smooth navigation
+used:
+React hooks,Router,State Management,event handling
